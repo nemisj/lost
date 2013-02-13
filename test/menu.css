@@ -1,17 +1,3 @@
-/* overwrite page wide default */
-.mc {
-	color : #666666;
-	font-size: 12px;
-}
-
-.mc input, .mc select, .mc textarea, .mc button, keygen, isindex, .mc legend, .mc a {
-    color: #666666;
-    font-family: tahoma, verdana, arial,sans-serif;
-	font-size: 12px;
-    line-height: 16px;
-	text-decoration: none;
-}
-
 .mc .rf-trn-hnd-exp {
 	background: url(../img/mc_menu_open.gif) no-repeat center;
 }
