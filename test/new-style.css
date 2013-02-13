@@ -36,11 +36,13 @@
 	height: auto;
 	background: #fff;
 	padding : 2px;
+	margin : 2px;
 }
 
 
 /* global panel */
 .mc .rf-p-b {
+	color : #666;
 	line-height: 20px;
 	font-size: 12px;
 	font-family: tahoma, verdana, arial,sans-serif
