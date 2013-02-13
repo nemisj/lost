@@ -17,7 +17,11 @@ isindex,
 
 .mc { color: #666; }
 .mc button { color: #666666; }
-.mc a { color: #0075BB; }
+
+.mc a { 
+	color: #0076BB; 
+	margin: 0 2px 0;
+}
 
 .mc a:hover { 
 	color: #1341C2; 
