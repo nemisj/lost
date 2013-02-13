@@ -1,0 +1,13 @@
+install chrome extension:
+
+https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+
+
+training - jbos5 - 2.xx
+test 	 - jbos7 - 3.xx
+
+gast
+Welkom01
+
+http://test01.lostlemon.nl:8280/mc_training/pages/welcome/Welcome.jsf
+http://test01.lostlemon.nl:8080/mc_test/pages/welcome/Welcome.jsf
