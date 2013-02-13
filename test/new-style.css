@@ -39,6 +39,7 @@ isindex,
 }
 
 .mc .rf-p-b {
+	padding: 0px;
 }
 
 /* global panel but in data-box */
@@ -141,7 +142,12 @@ isindex,
 
 
 /* table stuff --> old .dr-panel */
-.mc table th.rf-dt-shdr-c {
+.mc .rf-dt {
+	width: 100%; /* not sure how well will this behave in IE */
+}
+
+.mc .rf-dt .rf-dt-hdr-c,
+.mc .rf-dt .rf-dt-shdr-c {
 	background: #F7F7F7;
 	font-weight: normal;
 	color: #666666;
@@ -150,7 +156,7 @@ isindex,
     font-size: 12px;
     font-weight: bold;
     padding: 2px 4px 2px 4px;
-    white-space: wrap;
+    white-space: normal;
 }
 
 .mc table th.rf-dt-shdr-c a {
