@@ -1,98 +1,36 @@
-/** menu css **/
-.dr-tree {
-	width: 210px;
-}
-	
-.dr-tree-full-width {
-	width: 100%;
+/* overwrite page wide default */
+.mc {
+	color : #666666;
 }
 
-table.dr-tree-full-width {
-	border-bottom: 1px solid #eee;
-}
-
-div.dr-tree-h-ic-div {
-	margin: 5px 0px 5px 0px;
-}
-
-.dr-tree-full-width td {
-	padding: 2px 0px 2px 0px;	
-	border: 1px solid #fff;
-}
-
-td.rich-tree-node-highlighted {
-	border: 1px solid #fff;
-}
-
-td.dr-tree-i-sel {
-	border: 1px solid #fff;	
-}
-
-.dr-tree-h-text {
-	cursor:default;
-	padding:1px 4px;
-	white-space: normal;
-	width:100%;
-}
-.dr-tree-h-ic-line {
-	background-image: none;
-}
-.dr-tree-h-ic-line-exp {
-	background-image:none;
-}
-.dr-tree-h-ic-line-node {
-	background-image: none;
-}
-.dr-tree-h-ic-line-clp {
-	background-image: none;
-}
-.dr-tree-h-ic-line-last {
-	background-image:none;
-}
-
-td.rich-tree-node-handleicon {
-	padding: 0px;	
-	margin: 0px;
-	width: 20px;	
-}
-td.rich-tree-node-icon img {
-	display: none;
-	width: 1px;
-}
-td.rich-tree-node-icon-leaf img {
-	display: none;
-	width: 1px;
-}	
-.rich-tree-node-handleicon div {
-	position: relative;
-	float: left;
-	width: 18px;
-	padding: 0px;
-}	
-a.rich-tree-node-handle {
-	position: relative;
-	float: left;
-	padding: 0px;	
-}	
-
-a.rich-tree-node-handle img {
-	position: relative;
-	float: left;	
-	padding: 0px;
-	margin: 0px;
-}	 
-
-.dr-tree-h-ic-div {
-	margin-left: 2px;
-	padding-left: 5px;
-}
-
-.dr-tree a {
+.mc input, .mc select, .mc textarea, .mc button, keygen, isindex, .mc legend, .mc a {
     color: #666666;
+    font-family: tahoma, verdana, arial,sans-serif;
+	font-size: 12px;
+    line-height: 16px;
+	text-decoration: none;
 }
 
-.dr-tree a:hover {
-    color: #86AA23;    
+
+/* left menu tree */
+.mc .rf-p .rf-tr-nd {
+    background: none repeat scroll 0 0 transparent;
 }
 
+.mc .rf-p .rf-trn {
+    background: none repeat scroll 0 0 transparent;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 4px 0;
+}
+
+.mc .rf-p a {
+	color: #666666;
+}
+.mc .rf-p a:hover {
+	color: #86AA23;
+}
+
+.mc .rf-p .rf-p-b {
+	padding : 0px;
+}	
 
