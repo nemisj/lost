@@ -1,0 +1,22 @@
+{
+  "name": "lost-git",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "static.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+	"start": "node static.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nemisj/lost.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "be9c6460c8c669a55b0dacdaa5a74d333eb13a46",
+  "dependencies": {
+    "express": "3.0.6"
+  }
+}
