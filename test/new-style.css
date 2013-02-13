@@ -136,9 +136,14 @@ isindex,
 	background-color : #F5FAFA;
 }
 
-.mc .databox .cke_wrapper {
+.mc .cke_skin_richfaces .cke_wrapper {
 	padding: 0px;
 }
+/* all other place need to have overflow auto for tables */
+.mc .databox .rf-p {
+	overflow : visible;
+}
+
 
 
 /* table stuff --> old .dr-panel */
