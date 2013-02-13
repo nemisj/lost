@@ -13,14 +13,14 @@
 	padding: 4px 0;
 }
 
-.mc .rf-p a {
+.mc .content_sidebar .rf-p a {
 	color: #666666;
 }
-.mc .rf-p a:hover {
+.mc .content_sidebar .rf-p a:hover {
 	color: #86AA23;
 }
 
-.mc .rf-p .rf-p-b {
+.mc .content_sidebar .rf-p .rf-p-b {
 	padding : 0px;
 }	
 
