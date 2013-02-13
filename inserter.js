@@ -4,6 +4,8 @@ var root = 'http://localhost:1337/';
     var names = [
         'menu.css', 'layout.css', 'mcform.css'
     ];
+
+	document.body.className = 'mc';
     var nodes = document.getElementsByTagName('link');
     Array.prototype.forEach.call(nodes, function (node) {
         
