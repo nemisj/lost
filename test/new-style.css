@@ -1,0 +1,72 @@
+/********** Input fields ****************/
+.mc {
+	font-size: 12px;
+}
+
+.mc input[type="button"][disabled] {
+	color: #aaa;
+}
+
+.mc input[type="submit"], 
+.mc input[type="button"] {
+	background:#eee;
+	border-color:#D9DFEA #0E1F5B #0E1F5B #D9DFEA;
+	border-style:solid;
+	border-width:1px;
+	color:#666;
+	font-family: tahoma, verdana, arial,sans-serif;
+    font-size: 12px;
+    height: 22px;
+	padding:2px 15px 3px 15px;
+	text-align:center;
+	margin: 5px 5px 2px 0px;
+}
+
+.mc button:hover, 
+.mc input[type="reset"]:hover, 
+.mc input[type="submit"]:hover, 
+.mc input[type="button"]:hover {
+	background: #eee;
+}
+
+.mc input[type="text"] {
+	width: 150px;
+	font-size: 12px;
+	height: auto;
+	background: #fff;
+}
+
+.mc input[type="password"] {
+	width: 150px;
+}
+
+/************ viewsource ***************
+ collapsable search thing
+ IT WAS commandLink before
+*/
+
+/* collapse image */
+.mc .rf-ico-chevron-down-hdr, 
+.mc .rf-ico-chevron-up-hdr {
+ 	background: transparent url('../img/right_arrow_icon.gif') no-repeat scroll 0px 2px;
+}
+
+/* rf-cp - collapsiblePanel */
+/* container */
+
+.mc .rf-cp  { 
+	font-size: 12px;
+}
+
+.mc .rf-cp .rf-cp-b { /* body */
+	overflow: visible; /* in order to take away scrollbar */
+}
+
+/* label text*/
+.mc .rf-cp-lbl {
+	font-weight: normal;
+	cursor: pointer;
+	color: #0075BB;
+}
+
+
