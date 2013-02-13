@@ -24,11 +24,21 @@ isindex,
 }
 
 /* global panel */
+/* before it was a dr-pnl in mcform.css */
+.mc .rf-p {
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding: 1px;
+}
+
 .mc .rf-p-b {
 	color : #000;
 	line-height: 20px;
 	font-size: 12px;
 	font-family: tahoma, verdana, arial,sans-serif
+}
+
+.mc .rf-p-b {
 }
 
 /* global panel but in data-box */
