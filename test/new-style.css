@@ -29,7 +29,8 @@
 	background: #eee;
 }
 
-.mc input[type="text"] {
+.mc input[type="text"],
+.mc input[type="password"] {
 	width: 150px;
 	font-size: 12px;
 	height: auto;
@@ -37,8 +38,12 @@
 	padding : 2px;
 }
 
-.mc input[type="password"] {
-	width: 150px;
+
+/* global panel */
+.mc .rf-p-b {
+	line-height: 20px;
+	font-size: 12px;
+	font-family: tahoma, verdana, arial,sans-serif
 }
 
 /************ viewsource ***************
@@ -55,11 +60,14 @@
 /* rf-cp - collapsiblePanel */
 /* container */
 
-.mc .rf-cp  { 
+.mc .rf-cp,
+.mc .rf-cp .rf-cp-hdr{ 
+	line-height: 20px;
 	font-size: 12px;
+	font-family: tahoma, verdana, arial,sans-serif
 }
 
-.mc .rf-cp .rf-cp-b { /* body */
+.mc .rf-cp { /* body */
 	overflow: visible; /* in order to take away scrollbar */
 }
 
