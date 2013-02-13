@@ -18,8 +18,9 @@ isindex,
 .mc a {
 	color: #0075BB;
 }
+
 .mc a:hover {
-	color: #86AA23;
+	color: #1341C2;
 }
 
 /* global panel */
@@ -142,3 +143,4 @@ isindex,
     padding: 2px 4px 2px 4px;
     white-space: wrap;
 }
+
