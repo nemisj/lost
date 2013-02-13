@@ -1,7 +1,47 @@
-/********** Input fields ****************/
-.mc {
+/* overwrite page wide default */
+.mc,
+.mc input, 
+.mc select, 
+.mc textarea, 
+.mc button, 
+keygen, 
+isindex, 
+.mc legend, 
+.mc a {
+    color: #666666;
+    font-family: tahoma, verdana, arial,sans-serif;
 	font-size: 12px;
+    line-height: 16px;
+	text-decoration: none;
 }
+
+.mc a {
+	color: #0075BB;
+}
+.mc a:hover {
+	color: #86AA23;
+}
+
+/* global panel */
+.mc .rf-p-b {
+	color : #000;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: tahoma, verdana, arial,sans-serif
+}
+
+/* global panel but in data-box */
+
+.mc .databox .rf-p-b {
+	padding: 1px;
+}
+
+/* clean background in data box when using rf-p */
+.mc .databox .rf-p {
+	background:transparent;
+}
+
+/********** Input fields ****************/
 
 .mc input[type="button"][disabled] {
 	color: #aaa;
@@ -40,13 +80,6 @@
 }
 
 
-/* global panel */
-.mc .rf-p-b {
-	color : #666;
-	line-height: 20px;
-	font-size: 12px;
-	font-family: tahoma, verdana, arial,sans-serif
-}
 
 /************ viewsource ***************
  collapsable search thing
@@ -61,6 +94,11 @@
 
 /* rf-cp - collapsiblePanel */
 /* container */
+
+/* only for collapsible panel all the text is gray */
+.mc .rf-cp .rf-p-b {
+	color: #666666;
+}
 
 .mc .rf-cp,
 .mc .rf-cp .rf-cp-hdr{ 
