@@ -70,10 +70,6 @@ isindex,
 
 /********** Input fields ****************/
 
-.mc input[type="button"][disabled] {
-	color: #aaa;
-}
-
 .mc input[type="submit"], 
 .mc input[type="button"] {
 	background:#eee;
@@ -104,6 +100,14 @@ isindex,
 	background: #fff;
 	padding : 2px;
 	margin : 2px;
+}
+
+.mc button[disabled], 
+.mc input[type="reset"][disabled], 
+.mc input[type="submit"][disabled], 
+.mc input[type="button"][disabled] {
+	background: #e6e6e6;
+	color: #bbb;
 }
 
 
