@@ -1,6 +1,7 @@
 /* overwrite page wide default */
 .mc {
 	color : #666666;
+	font-size: 12px;
 }
 
 .mc input, .mc select, .mc textarea, .mc button, keygen, isindex, .mc legend, .mc a {
@@ -11,6 +12,9 @@
 	text-decoration: none;
 }
 
+.mc .rf-trn-hnd-exp {
+	background: url(../img/mc_menu_open.gif) no-repeat center;
+}
 
 /* left menu tree */
 .mc .rf-p .rf-tr-nd {
