@@ -1,0 +1,522 @@
+/********* generic styles ***********/
+h1.title {
+	color: #666666;
+	font-size: 120%;
+	border-bottom: 1px dotted #cccccc;
+	width: 100%;
+	font-weight: bold;
+	padding: 5px 0px 2px 0px;
+	margin: 5px 0px 12px 0px;
+}
+
+h2.title {
+	color: #666666;
+	font-size: 120%;
+	font-weight: normal;
+	border-bottom: 0px dotted #cccccc;
+	width: 100%;
+	padding: 5px 0px 2px 0px;
+	margin: 5px 0px 5px 0px;
+}
+
+h3.title {
+	color: #777777;
+	font-size: 100%;
+	font-weight: bold;
+	border-bottom: 0px dotted #cccccc;
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+	margin: 5px 0px 5px 0px;
+}
+
+h3.title span.label {
+	color: #666666;
+	font-weight: bold;	
+	font-size: 120%;
+}
+
+h3.title span.data {
+	color: #666666;
+	font-weight: bold;
+	font-size: 120%;	
+}
+
+h1.error {
+	color: #666666;
+	font-size: 140%;
+	border-bottom: 1px dotted #cccccc;
+	width: 100%;
+	font-weight: bold;
+	padding: 5px 0px 2px 0px;
+	margin: 5px 0px 12px 0px;
+}
+
+div.messages { 
+	color: red;
+	margin: 0px 0px 5px 0px;	
+}
+
+.messages { 
+	color: red;
+}
+
+span.label {
+	color: #666666;
+	font-weight: normal;	
+}
+
+input[type="button"][disabled] {
+	color: #aaaaaa;
+}
+
+input[type="submit"], input[type="button"] {
+	background-color:#EEEEEE;
+	border-color:#D9DFEA #0E1F5B #0E1F5B #D9DFEA;
+	border-style:solid;
+	border-width:1px;
+	color:#666666;
+	font-family: tahoma, verdana, arial,sans-serif;
+    font-size: 12px;
+    height: 22px;
+	padding:2px 15px 3px 15px;
+	text-align:center;
+	margin: 5px 5px 2px 0px;
+}
+
+input[type="text"] {
+	width: 150px;
+}
+
+input[type="password"] {
+	width: 150px;
+}
+
+.content-header {
+	width: 100%;
+	padding: 5px;
+	font-size: 92%;
+	color: #888888;
+	text-align: right;
+	text-transform:uppercase;
+}
+
+.databox {
+	width: 400px;
+	border: 1px solid #C1DAD7;
+	background: #F5FAFA;
+	padding: 8px;
+	margin: 0px 0px 10px 0px
+}
+
+.large {
+	width: 550px;	
+}
+
+.max {
+	width: 97%;	
+}
+
+.button-container {
+	margin: 5px 0px 5px 0px;
+}	
+
+.button-container a {
+	float: none;
+}
+
+table td span {	
+	padding: 0px 0px 0px 0px
+}
+
+.noborder {
+	border-color: #ffffff;	
+}
+
+.bold {
+	color: #666666;
+	font-weight: bold;	
+}
+
+.commandLink {
+ 	padding: 0px 0px 0px 20px;
+ 	background: transparent url('../img/right_arrow_icon.gif') no-repeat scroll 0px 2px;
+}
+
+a.commandLinkDisabled:link, a.commandLinkDisabled:visited {
+ 	padding: 0px 0px 0px 20px;
+ 	background: transparent url('../img/right_arrow_icon.gif') no-repeat scroll 0px 2px;
+	color: #000000;
+}
+
+a.commandLinkDisabled:hover {
+	text-decoration: none;
+}
+
+.printLink {
+ 	padding: 0px 0px 0px 20px;
+ 	background: transparent url('../img/icon_printer.gif') no-repeat scroll 0px 2px;
+}
+ 
+.commandLinkContainer {
+ 	float: none;
+ 	padding:1px 2px 1px 4px;
+}
+ 
+.welcometext {
+ 	color: #666666;
+ 	font-weight: bold;
+ 	font-size: 120%;
+}	
+/*********** jsf default data table styles ************/
+.dr-table th {
+	background: #F7F7F7;
+	font-weight: normal;
+	color: #666666;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 4px 2px 4px;
+    white-space: wrap;
+}
+
+.dr-table td {
+	vertical-align: top;
+}
+
+.dr-table {
+	margin: 5px 0px 5px 0px;
+	width: 100%;
+}
+.dr-table-cell {
+	padding: 1px 2px 1px 4px;	
+	font-family: tahoma, verdana, arial, sans-serif;
+    font-size: 12px;
+}
+
+.dr-pnl {
+	background-color: transparent;
+	padding: 1px;
+	margin: 5px 0px 5px 0px;
+	border: 0px;	
+	overflow-x: auto;
+	overflow-y: hidden;
+	width:690px;
+}
+
+.dr-pnl td {
+	padding-right: 5px;
+}
+
+.dr-pnl-b {
+	padding: 0px;
+	font-size:12px;
+	font-family: tahoma, verdana, arial,sans-serif;
+}
+
+/*********** ajax client search *********/
+.dr-sdt-hr {
+	background-color: #86AA23;
+}
+
+.dr-sdt-cbody {
+	padding: 2px;	
+}
+/*********** jsf dialogs ****************/
+
+.dr-mpnl-pnl-h {
+	background: #86AA23;	
+	border-color: #86AA23;
+	font-size: 12px;
+}	
+
+.dr-mpnl-pnl-text {
+    font-family: tahoma, verdana, arial,sans-serif;
+}
+
+.dr-mpnl-pnl-b {
+	color:#333333;
+	font-family: tahoma, verdana, arial,sans-serif;
+	font-size: 12px;
+}
+
+/****** tables with no class enclosed in div with databox class *****/
+div.databox table td {
+	padding-right: 10px;	
+}
+/*********** jsf calendar control ***********/
+.rich-calendar-month {
+	background-color:#86AA23;
+}
+
+.rich-calendar-tool {
+	background-color:#86AA23;
+}
+
+.rich-calendar-select {
+	background-color:#86AA23;
+}
+
+.uppercaseTitle{
+    color: #666666;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 2px 4px;
+    text-transform: uppercase;
+}
+
+.rich-calendar-today {
+	background-color:#EAF0F8;
+	color: #000000;
+}
+
+/*********** lifeEventsSelection ***********/
+.life-events-section {
+	width: 650px;
+	border: 0px solid #C1DAD7;
+	background: #fff;
+	padding: 0px;
+	margin: 10px 0px 10px 0px
+}
+
+div.select-box-margin {
+	padding: 0px 2px 0px 2px;
+	width: 15px;
+	float: left;
+}
+
+.clipped-cell-content {
+	white-space: nowrap;
+	width: 300px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	text-align: left;
+}
+
+.signals-column-table {
+	background: transparent;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.signals-column {
+	padding: 0px;
+	margin: 0px;
+	height: 25px;
+	width: 320px;
+	background: transparent;
+	border: 0px;
+}
+	
+fieldset.life-events {
+	border: 1px solid #dddddd;
+	background: #fff;	
+	position: relative;
+	margin: 1em 0em 1em 0em;
+	padding: 10px;
+}
+
+legend {
+	position: absolute;
+	top: -.5em;
+	left: .2em;
+}
+
+.signals-table td {
+	vertical-align: top;
+}
+
+/********* qengine *********/
+h1.question {
+	color: #666666;
+	font-size: 120%;
+	font-weight: normal;
+	border-bottom: 0px dotted #cccccc;
+	width: 100%;
+	padding: 5px 0px 2px 0px;
+	margin: 5px 0px 5px 0px;
+}
+
+h2.question {
+	color: #666666;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: italic;
+	width: 100%;
+	padding: 1px 0px 2px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+div.qengine-answers-container .dr-table {
+	border: 0px solid #ccc;
+	background: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.qengine-answers-container .dr-table td {
+	border: 0px;
+}
+
+table.no-style-table {
+	border: 0px;
+	margin: 0px;
+}
+
+table.no-style-table td {
+	border: 0px;
+}
+
+.no-style-box {
+	border: 0px;
+	margin: 10px 0px 10px 0px;
+}
+
+.link-after-line {
+	padding: 0px 0px 0px 3px
+}
+
+.additionalinfo {
+	background:transparent url('../img/info_icon.jpg') no-repeat scroll left 15%;
+	color: #999999;
+	float:none;
+	font-size:90%;
+	font-style:normal;
+	padding: 0 5px 0 20px;
+	width:80%;
+}
+
+.plusLink {
+	background:transparent url('../img/plus-sign-small.jpg') no-repeat scroll left 15%;
+	color: #999999;
+	float:none;
+	font-size:90%;
+	font-style:normal;
+	padding: 0 5px 0 20px;
+	width:80%;
+}
+.dontknowanswerlink {
+	text-align: right;
+	font-size: 80%;	
+}	
+
+/****** tasks *************/
+fieldset.databox {
+	border: 1px solid #C1DAD7;
+	background: #F5FAFA;
+	position: relative;
+	margin: 1em 0em 1em 0em;
+	padding: 10px 10px 10px 10px;
+}
+
+fieldset.databox legend {
+	position: absolute;
+	top: -.5em;
+	left: .2em;
+	font-size: 100%;
+	color: #666666;
+	font-weight: normal;
+}
+
+
+/********* upload ***********/
+.rich-fileupload-font {
+	font-family: tahoma, verdana, arial, sans-serif;
+    font-size: 12px;
+}
+
+/******* DKD Tabbed data pane *****/
+.dr-tbpnl-cntnt {
+	background-color:#F5FAFA;
+	border-bottom-color:#C1DAD7;
+	border-left-color:#C1DAD7;
+	border-right-color:#C1DAD7;
+}
+
+.dr-tbpnl-tb-act {
+	background-color: #F5FAFA;
+	background-image: none;
+	color:#555555;
+	font-weight:bold;
+	height: 50px;
+}
+
+.dr-tbpnl-tbtopbrdr {
+	border-top: 1px solid #C1DAD7;
+	border-left: 1px solid #C1DAD7;
+	border-right: 1px solid #C1DAD7;
+}
+
+.dr-tbpnl-tbbrdr {
+	background-image:none;
+}
+.dr-tbpnl-tb-inact {
+	background-color:#ffffdd;
+	background-image:none;
+	color:#666666;
+	font-weight:bold;
+	height: 30px;
+	border: 0px;
+}
+
+.dkd-section-name { 
+	display: none;
+}
+
+.dkd-section-title {
+	display: none;
+}
+
+td.dr-bottom-line table td img {
+	display: block;
+	width: 0px;
+}
+
+.dr-tbpnl-tb {
+	height: 30px;
+	line-height: 12px;
+}
+
+span.dkd-header {
+	font-size: 110%;
+	color: #4985C7;
+	font-weight: bold;
+}
+
+table.dkd-data-table-vert, table.dkd-data-table-horiz {
+	border: 0px solid #eee;
+	width: 97%;
+	border-spacing: 1px;
+	margin: 5px 0px 5px 0px;
+}
+
+table.dkd-data-table-vert td, table.dkd-data-table-horiz td {
+	border: 1px solid #eee;
+	padding: 1px 2px 1px 2px;
+	background: #fff;
+	vertical-align: top;	
+}
+
+table.dkd-data-table-vert td span.header, table.dkd-data-table-horiz td span.label {
+	color: #555555;
+	font-weight: bold;
+}
+
+table.dkd-data-table-vert td span.data, table.dkd-data-table-horiz td span.data {
+	color: #666666;
+	font-weight: normal;
+}
+
+table.dkd-data-table-vert span, table.dkd-data-table-horiz span {
+	line-height:15px;
+}	
+
+div.dkdview_container {
+	overflow-x: auto;
+	overflow-y: hidden;
+	width: 100%;
+	position: relative;
+}

@@ -1,0 +1,283 @@
+/* 
+    Document   : layout
+    Created on : Mar 26, 2009, 10:29:44 AM
+    Author     : Mark
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html {
+	background:#CACACA;	
+	margin:0;
+    padding:0;
+}
+
+.clear {clear:both;}
+
+body, form, div, span, ul, li, h1, h2, h3, h4, h5, address, p, td, blockquote, dl, dt, dd, input, br {
+    margin:0;
+    padding:0;
+}
+
+body {
+    color:#666666;
+    font-family: tahoma, verdana, arial,sans-serif;
+    font-size:12px;
+    line-height:16px;
+    text-align:left;
+	
+}
+
+a:link, a:visited {
+    color:#0075BB;
+}
+
+a:hover {
+    color:#1341C2;
+    text-decoration:underline;
+}
+
+#header_bar {
+    background:#1C1811 none repeat scroll 0;
+}
+
+#header_logo {
+    display:block;
+    height:65px;
+    margin:0 auto;
+    width:980px;
+    background:transparent url(../img/logo.jpg) no-repeat scroll 5px 3px;
+}
+
+#header_center_text {
+    float: left;
+    height: 60px;
+    margin-top: -60px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+
+.header-right-logo {
+	float: right;
+	border: 0;
+}
+
+#navigator {
+    background:#F7F7F7 none repeat scroll 0 50%;
+    border-bottom:1px solid #A0A0A0;
+    height:auto;
+    margin:4px 0 0;
+    padding:0;
+}
+
+#navigator div.center_box {
+    margin:0 auto;
+    width:980px;
+}
+#navigator ul {
+    float:left;
+    list-style-type:none;
+    padding:0 1px;
+}
+#navigator li {
+    background:transparent url(../img/nav-div.gif) no-repeat scroll left center;
+    float:left;
+    font-size:13px;
+    font-weight:bold;
+    line-height:15px;
+    padding:7px 0 7px 1px;
+}
+
+#navigator li.active a {
+    background-color:white;
+    background-image:url(../img/nav-active.gif);
+    background-repeat:repeat-x;
+    color:#444444;
+}
+#navigator li a {
+    color:#666666;
+    line-height:15px;
+    margin:-4px 0 0;
+    padding:11px 10px 6px;
+}
+
+.middle-container {
+    border-color:#A0A0A0 #A0A0A0 #697BA1;
+    border-style:solid;
+    border-width:1px;
+    margin:10px auto 8px;
+    padding:0;
+    width:980px;
+}
+
+.content_header {
+    background:#86AA23 none repeat scroll 0 50%;
+    height:30px;
+    margin:0 auto;
+    padding:0 10px 0 0;
+    width:970px;
+    text-align: right;
+}
+
+.content_header h1 {
+    color: #fff;    
+    font-size: 12px;
+    font-weight:normal;
+    letter-spacing:2pt;
+    padding:7px 10px 0;
+    text-transform:uppercase;
+}
+
+.content_bg {
+    background:#F7F7F7 none repeat scroll 0 50%;
+    float:left;
+    margin:0 auto;
+    padding:0;
+    width:980px;
+}
+
+.content, .content_unauthorized {
+    background:#FFFFFF none repeat scroll 0 50%;
+    float:left;
+    margin:0;
+    padding:0;
+    width:980px;
+}
+
+.content .content_main {
+    width:700px;
+}
+ 	
+.content_unauthorized .content_main_unauthorized {
+    width:930px;
+}
+
+.content .content_main, .content_unauthorized .content_main_unauthorized {
+    background:#FFFFFF none repeat scroll 0 50%;
+    float:left;
+    margin:0;
+    padding: 5px 10px 20px 20px;
+}
+
+.content .content_sidebar, .content_unauthorized .content_sidebar {
+    background: #FFFFFF;
+    border-right: 1px solid #EBEBEB;
+    float: left;
+    margin: 10px 0 10px 0px;
+    padding: 10px 10px;
+    width: 210px;
+}
+
+#submenu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#submenu li {
+    float:none;
+    list-style-type:none;
+    width: 200px;
+    border-bottom: 1px solid #ccc;
+    padding: 3px 3px 3px 3px;
+    color: #666666;
+    font-size: 12px;
+    margin:2px;
+}
+
+#submenu li.active {
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    xbackground-color: #eee;
+    font-weight: bold;   
+    color: #666666;
+}  
+#submenu li a {
+    color: #666666;
+}
+
+#submenu li a:hover {
+    color: #86AA23;    
+}
+
+.footer {
+    font-size:11px;
+    margin:0 auto;
+    padding:0 10px;
+    width:960px;
+}
+.footer .copyright {
+    color:#666666;
+    float:left;
+    width: 30%;
+}
+
+.footer .manual {
+    float:left;
+    width:40%;
+    text-align: center;
+}
+
+.footer .manual a img {
+    vertical-align:middle;
+    text-decoration: none;
+    border: 0em;
+}
+
+.footer .manual a.image:hover {
+    text-decoration: none;
+}
+
+.footer .links {
+    float:right;
+    width: 30%;
+    text-align: right;
+}
+
+.footer .links a img {
+    vertical-align:middle;
+    text-decoration: none;
+    border: 0em;
+}
+
+.clearfix:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0px;
+    visibility:hidden;
+}
+
+.rich-picklist-list-content{
+	width:300px!important;	 
+	height:450px!important;
+}
+	
+.systemWarningMessage{
+	font-size:16px; 
+	font-weight:bold;
+	color:#000000;
+}
+
+.rf-p {
+	border-style:none !important;
+}
+
+.mc-tree .rf-trn-ico {
+	display:none;
+}
+
+.mc-mi-tree .rf-rn-ico {
+	display:none;
+}
+
+.mc-mi-tree {
+	width:300px;
+}
