@@ -30,6 +30,17 @@ isindex,
 	font-family: tahoma, verdana, arial,sans-serif
 }
 
+/* global panel but in data-box */
+
+.mc .databox .rf-p-b {
+	padding: 1px;
+}
+
+/* clean background in data box when using rf-p */
+.mc .databox .rf-p {
+	background:transparent;
+}
+
 /********** Input fields ****************/
 
 .mc input[type="button"][disabled] {
