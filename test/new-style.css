@@ -18,7 +18,11 @@ isindex,
 .mc { color: #666; }
 .mc button { color: #666666; }
 .mc a { color: #0075BB; }
-.mc a:hover { color: #1341C2; }
+
+.mc a:hover { 
+	color: #1341C2; 
+	text-decoration: underline;
+}
 
 /* global panel */
 /* before it was a dr-pnl in mcform.css */
@@ -90,6 +94,7 @@ isindex,
 .mc input[type="submit"]:hover, 
 .mc input[type="button"]:hover {
 	background: #eee;
+	color: #111;
 }
 
 .mc input[type="text"],
@@ -177,14 +182,14 @@ isindex,
 	color: #666666;
 	letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     padding: 2px 4px 2px 4px;
     white-space: normal;
 }
 
 .mc table th.rf-dt-shdr-c a {
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .mc table td.rf-dt-c {
