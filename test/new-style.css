@@ -197,3 +197,16 @@ isindex,
 	font-size: 12px;
 	font-family: tahoma, verdana, arial,sans-serif
 }
+
+/* tabs tabs tabs*/
+.mc .rf-tab-hdr-tabline-vis.rf-tab-hdr-tabline-top {
+	overflow: visible;
+}
+
+/* data grid -> rf-dg */
+.mc .rf-dg,
+.mc .rf-dg .rf-dg-c {
+    font-family: tahoma, verdana, arial,sans-serif;
+	font-size: 12px;
+    line-height: 16px;
+}
