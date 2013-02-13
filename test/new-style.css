@@ -198,8 +198,6 @@ isindex,
 	font-family: tahoma, verdana, arial,sans-serif
 }
 
-
-
 /******* DKD Tabbed data pane *****/
 .mc .rf-tab-hdr-inact.rf-tab-hdr-top {
 	vertical-align: top;
@@ -219,13 +217,18 @@ isindex,
 	background: none repeat-x scroll center top;
 	border: none;
 	padding-top: 0px;
-	overflow: hidden;
-	height: 25px;
-	white-space: nowrap;
-	position: relative;
+	overflow: visible;
 }
 
 .mc .rf-tab-hdr-brd {
 	border: none;
 	height: 0px;
+}
+
+/* data grid -> rf-dg */
+.mc .rf-dg,
+.mc .rf-dg .rf-dg-c {
+    font-family: tahoma, verdana, arial,sans-serif;
+	font-size: 12px;
+    line-height: 16px;
 }
