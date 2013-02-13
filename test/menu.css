@@ -1,5 +1,9 @@
-.mc .rf-trn-hnd-exp {
+.mc .content_sidebar .rf-trn-hnd-exp {
 	background: url(../img/mc_menu_open.gif) no-repeat center;
+}
+
+.mc .content_sidebar .rf-trn-hnd-colps {
+	background: url(../img/mc_menu_close.gif) no-repeat center;
 }
 
 /* left menu tree */
