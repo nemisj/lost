@@ -1,4 +1,5 @@
 /* overwrite page wide default */
+
 .mc,
 .mc input, 
 .mc select, 
@@ -8,20 +9,16 @@ keygen,
 isindex, 
 .mc legend, 
 .mc a {
-    color: #666666;
     font-family: tahoma, verdana, arial,sans-serif;
 	font-size: 12px;
     line-height: 16px;
 	text-decoration: none;
 }
 
-.mc a {
-	color: #0075BB;
-}
-
-.mc a:hover {
-	color: #1341C2;
-}
+.mc { color: #666; }
+.mc button { color: #666666; }
+.mc a { color: #0075BB; }
+.mc a:hover { color: #1341C2; }
 
 /* global panel */
 /* before it was a dr-pnl in mcform.css */
@@ -42,6 +39,20 @@ isindex,
 	padding: 0px;
 }
 
+/*
+.mc .databox {
+	display:inline-table;
+	min-width:400px;
+}
+
+.mc div.databox.max[style]{
+	width: 97%;
+}
+
+.mc .databox[style] {
+	width: 400px !important;
+}
+*/
 /* global panel but in data-box */
 
 .mc .databox .rf-p-b {
@@ -53,11 +64,11 @@ isindex,
 	background:transparent;
 }
 
-/********** Input fields ****************/
-
-.mc input[type="button"][disabled] {
-	color: #aaa;
+.mc .databox > table {
+	color: #000;
 }
+
+/********** Input fields ****************/
 
 .mc input[type="submit"], 
 .mc input[type="button"] {
@@ -89,6 +100,14 @@ isindex,
 	background: #fff;
 	padding : 2px;
 	margin : 2px;
+}
+
+.mc button[disabled], 
+.mc input[type="reset"][disabled], 
+.mc input[type="submit"][disabled], 
+.mc input[type="button"][disabled] {
+	background: #e6e6e6;
+	color: #bbb;
 }
 
 
