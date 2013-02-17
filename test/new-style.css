@@ -15,6 +15,11 @@ isindex,
 	text-decoration: none;
 }
 
+.mc ul,
+.mc ol {
+	padding-left: 40px;
+}
+
 .mc { color: #666; }
 .mc button { color: #666666; }
 
@@ -335,4 +340,27 @@ isindex,
 .mc .rf-cal-tl-ftr .rf-cal-tl-btn-hov {
 	border: 1px solid #999;
 	background: none repeat scroll 0 0 #dadada;
+}
+
+/* old signals style */
+
+
+.mc .signals-table .signals-column {
+	padding: 0px;
+	margin: 0px;
+	height: 25px;
+	width: 320px;
+	background: transparent;
+	border: none;
+}
+
+.mc .signals-column-table {
+	background: transparent;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.mc .signals-table td {
+	vertical-align: top;
 }

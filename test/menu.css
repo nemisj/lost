@@ -6,6 +6,10 @@
 	background: url(../img/mc_menu_close.gif) no-repeat center;
 }
 
+.mc .content_sidebar ul {
+	padding: 0px;
+}
+
 /* left menu tree */
 .mc .rf-p .rf-tr-nd {
     background: none repeat scroll 0 0 transparent;

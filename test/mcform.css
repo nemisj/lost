@@ -271,21 +271,7 @@ div.select-box-margin {
 	text-align: left;
 }
 
-.signals-column-table {
-	background: transparent;
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
-}
 
-.signals-column {
-	padding: 0px;
-	margin: 0px;
-	height: 25px;
-	width: 320px;
-	background: transparent;
-	border: 0px;
-}
 	
 fieldset.life-events {
 	border: 1px solid #dddddd;
@@ -301,9 +287,6 @@ legend {
 	left: .2em;
 }
 
-.signals-table td {
-	vertical-align: top;
-}
 
 /********* qengine *********/
 h1.question {
