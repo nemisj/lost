@@ -6,10 +6,10 @@
 
 	//document.body.className = 'mc';
     var nodes = document.getElementsByTagName('link');
-	var each = function(arr,fnc) { for (var i=0;i<arr.length;i++){ fnc(arr[i]); } };
+    var each = function(arr,fnc) { for (var i=0;i<arr.length;i++){ fnc(arr[i]); } };
     each(nodes, function (node) {
         var href = node.href;
-        names.forEach(function(filename) {
+        each(names, function(filename) {
             var r = new RegExp(filename + '$');
             if (r.test(href)) {
 //                console.log('found the correct css, removing');
