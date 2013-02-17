@@ -53,20 +53,6 @@ isindex,
 	padding: 0px;
 }
 
-/*
-.mc .databox {
-	display:inline-table;
-	min-width:400px;
-}
-
-.mc div.databox.max[style]{
-	width: 97%;
-}
-
-.mc .databox[style] {
-	width: 400px !important;
-}
-*/
 /* global panel but in data-box */
 
 .mc .databox .rf-p-b {
@@ -79,6 +65,10 @@ isindex,
 }
 
 .mc .databox > table {
+	color: #000;
+}
+
+.mc form table {
 	color: #000;
 }
 
@@ -339,6 +329,7 @@ isindex,
 	padding: 1px;
 	text-align: center;
 	cursor: pointer;
+	white-space:nowrap;
 }
 
 .mc .rf-cal-tl-ftr .rf-cal-tl-btn-hov {
