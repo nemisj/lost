@@ -1,6 +1,5 @@
-var root = 'http://localhost:1337/';
-
 (function() {
+	var root = 'http://localhost:1337/';
     var names = [
         'menu.css', 'layout.css', 'mcform.css'
     ];
