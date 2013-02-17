@@ -6,10 +6,9 @@
 
 	//document.body.className = 'mc';
     var nodes = document.getElementsByTagName('link');
-    Array.prototype.forEach.call(nodes, function (node) {
-        
+	var each = function(arr,fnc) { for (var i=0;i<arr.length;i++){ fnc(arr[i]); } };
+    each(nodes, function (node) {
         var href = node.href;
-        
         names.forEach(function(filename) {
             var r = new RegExp(filename + '$');
             if (r.test(href)) {
