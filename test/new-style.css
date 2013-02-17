@@ -18,6 +18,12 @@ isindex,
 .mc { color: #666; }
 .mc button { color: #666666; }
 
+.mc select,
+.mc input,
+.mc textarea {
+	background:#FFF;
+}
+
 .mc a { 
 	color: #0076BB; 
 	margin: 0 2px 0;
@@ -269,3 +275,73 @@ isindex,
 	background: none;
 }
 
+/* popup calendar */
+
+.mc .rf-cal-popup {
+	background: none repeat scroll 0 0 #FFF;
+	border: 1px solid #BED6F8;
+	border-spacing:2px;
+	padding: .2em .2em 0;
+}
+
+.mc .rf-cal-popup .rf-cal-boundary-day {
+	color: #aaa;
+}
+
+.mc .rf-cal-c {
+	background: none repeat scroll 0 0 #E6E6E6;
+	border: 1px solid #D3D3D3;
+	color: #555555;
+	padding: 1px;
+	text-align: center;
+	cursor: pointer;
+}
+.mc .rf-cal-c:hover {
+	border: 1px solid #999;
+	background: none repeat scroll 0 0 #dadada;
+}
+
+.mc .rf-cal-c.rf-cal-boundary-day {
+	background:#fff;
+	border: none;
+}
+
+.mc .rf-cal-week {
+	color: orange;
+}
+
+.mc .rf-cal-popup td.rf-cal-tl {
+	padding: 0;
+	text-align: center;
+	cursor: pointer;
+	color: #0076BB;
+}
+
+.mc .rf-cal-popup td.rf-cal-tl-hov {
+	text-decoration: underline;
+}
+
+.mc td.rf-cal-hdr-month {
+	padding:0;
+	text-align: center;
+}
+
+.mc td.rf-cal-hdr {
+	background: none repeat scroll 0 0 #F5FAFA;
+	border: 1px solid #C1DAD7;
+	padding: 0;
+}
+
+.mc .rf-cal-tl-ftr .rf-cal-tl-btn {
+	background: none repeat scroll 0 0 #E6E6E6;
+	border: 1px solid #D3D3D3;
+	color: #555555;
+	padding: 1px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.mc .rf-cal-tl-ftr .rf-cal-tl-btn-hov {
+	border: 1px solid #999;
+	background: none repeat scroll 0 0 #dadada;
+}
