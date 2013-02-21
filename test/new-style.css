@@ -128,14 +128,21 @@ isindex,
  IT WAS commandLink before
 */
 
-/* collapse image */
+/* collapse image
 .mc .rf-ico-chevron-down-hdr, 
 .mc .rf-ico-chevron-up-hdr {
  	background: transparent url('../img/right_arrow_icon.gif') no-repeat scroll 0px 2px;
 }
+*/
 
 /* rf-cp - collapsiblePanel */
 /* container */
+
+.mc .rf-cp { /* body */
+	overflow: visible; /* in order to take away scrollbar */
+	border: 0px solid transparent;
+	background:transparent;
+}
 
 /* only for collapsible panel all the text is gray */
 .mc .rf-cp .rf-p-b {
@@ -146,12 +153,13 @@ isindex,
 .mc .rf-cp .rf-cp-hdr{ 
 	line-height: 20px;
 	font-size: 12px;
-	font-family: tahoma, verdana, arial,sans-serif
+	font-family: tahoma, verdana, arial, sans-serif;
+	border: 0px solid transparent;
+	background:transparent;
+	background-image:none;
+	border-width:0px;
 }
 
-.mc .rf-cp { /* body */
-	overflow: visible; /* in order to take away scrollbar */
-}
 
 /* label text*/
 .mc .rf-cp-lbl {
