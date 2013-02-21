@@ -8,7 +8,8 @@
 keygen, 
 isindex, 
 .mc legend, 
-.mc a {
+.mc a,
+.mc table td {
     font-family: tahoma, verdana, arial,sans-serif;
 	font-size: 12px;
     line-height: 16px;
@@ -270,7 +271,7 @@ isindex,
 	background: none;
 }
 
-/* popup calendar */
+/* popup calendar
 
 .mc .rf-cal-popup {
 	background: none repeat scroll 0 0 #FFF;
@@ -341,6 +342,7 @@ isindex,
 	border: 1px solid #999;
 	background: none repeat scroll 0 0 #dadada;
 }
+*/
 
 /* old signals style */
 
