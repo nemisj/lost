@@ -24,7 +24,7 @@ body, form, div, span, ul, li, h1, h2, h3, h4, h5, address, p, td, blockquote, d
     padding:0;
 }
 
-body {
+body.mc {
     color:#666666;
     font-family: tahoma, verdana, arial,sans-serif;
     font-size:12px;
@@ -268,10 +268,6 @@ a:hover {
 
 .rf-p {
 	border-style:none !important;
-}
-
-.mc-tree .rf-trn-ico {
-	display:none;
 }
 
 .mc-mi-tree .rf-rn-ico {

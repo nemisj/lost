@@ -219,11 +219,12 @@ isindex,
 }
 
 /* data grid -> rf-dg */
-.mc .rf-dg,
+.mc .rf-dg {
+	width: 99%;
+}
+
 .mc .rf-dg .rf-dg-c {
-    font-family: tahoma, verdana, arial,sans-serif;
-	font-size: 12px;
-    line-height: 16px;
+	border-width: 0;
 }
 
 /******* DKD Tabbed data pane *****/
