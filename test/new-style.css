@@ -9,7 +9,9 @@ keygen,
 isindex, 
 .mc legend, 
 .mc a,
-.mc table td {
+.mc table td,
+.mc div,
+.mc span {
     font-family: tahoma, verdana, arial,sans-serif;
 	font-size: 12px;
     line-height: 16px;
@@ -377,4 +379,16 @@ isindex,
 
 .mc .signals-table td {
 	vertical-align: top;
+}
+
+.mc .rf-trn .rf-trn-hnd-colps {
+	background: url(../img/mc_menu_close.gif) no-repeat center;
+}
+
+.mc .rf-trn .rf-trn-hnd-exp {
+	background: url(../img/mc_menu_open.gif) no-repeat center;
+}
+
+.mc .rf-trn .rf-trn-ico {
+	display:none;
 }
