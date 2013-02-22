@@ -16,6 +16,10 @@ isindex,
 	text-decoration: none;
 }
 
+.mc img {
+	border-width: 0;
+}
+
 .mc ul,
 .mc ol {
 	padding-left: 40px;
