@@ -38,7 +38,7 @@ isindex,
 
 .mc a { 
 	color: #0076BB; 
-	margin: 0 2px 0;
+	margin-right: 4px;
 }
 
 .mc a:hover { 
@@ -193,6 +193,7 @@ isindex,
 /* table stuff --> old .dr-panel */
 .mc .rf-dt {
 	width: 100%; /* not sure how well will this behave in IE */
+	margin-bottom:1px; /* in order to show bottom-border so that below items don't eat it*/
 }
 
 .mc .rf-dt .rf-dt-hdr-c,
@@ -361,7 +362,6 @@ isindex,
 
 /* old signals style */
 
-
 .mc .signals-table .signals-column {
 	padding: 0px;
 	margin: 0px;
@@ -371,6 +371,15 @@ isindex,
 	border: none;
 }
 
+.mc .signals-table .sigRow {
+	border-collapse: collapse;
+}
+
+.mc .signals-table .sigRow a {
+	display: inline-block;
+	margin-left: 5px;
+}
+
 .mc .signals-column-table {
 	background: transparent;
 	padding: 0px;
@@ -378,7 +387,8 @@ isindex,
 	border: 0px;
 }
 
-.mc .signals-table td {
+/* only outer td in table and not the sigRow table */
+.mc .signals-table > tbody > tr > td {
 	vertical-align: top;
 }
 
@@ -392,4 +402,9 @@ isindex,
 
 .mc .rf-trn .rf-trn-ico {
 	display:none;
+}
+
+/* override for d'n'd lists */
+.mc *.rf-pick-lst-scrl {
+	overflow: auto;
 }

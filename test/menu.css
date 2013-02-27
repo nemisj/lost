@@ -1,3 +1,15 @@
+.mc .content_sidebar .rf-trn-hnd {
+	width: 16px;
+	height: 16px;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.mc .content_sidebar .rf-trn-cnt {
+	white-space:normal;
+	padding-right:16px; /* this needed in order to make the part smaller */
+}
+
 .mc .content_sidebar .rf-trn-hnd-exp {
 	background: url(../img/mc_menu_open.gif) no-repeat center;
 }
