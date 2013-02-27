@@ -86,6 +86,7 @@ isindex,
 
 /********** Input fields ****************/
 
+.mc button,
 .mc input[type="submit"], 
 .mc input[type="button"] {
 	background:#eee;
